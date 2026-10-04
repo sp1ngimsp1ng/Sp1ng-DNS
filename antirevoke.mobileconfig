@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Totalement sécurisé pas de dangereux pour ton wifi</string>
+			<key>PayloadDisplayName</key>
+			<string>Sp1ng DNS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.sp1ng.dns.protect</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>22222222-3333-4444-5555-222222222222</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>DNSSettings</key>
+			<dict>
+				<key>ServerAddresses</key>
+				<array>
+					<string>1.1.1.1</string>
+				</array>
+				<key>ServerName</key>
+				<string>Sp1ng DNS</string>
+				<key>MatchDomains</key>
+				<array>
+					<string>ppq.apple.com</string>
+					<string>ocsp.apple.com</string>
+					<string>ocsp2.apple.com</string>
+					<string>certs.apple.com</string>
+					<string>crl.apple.com</string>
+					<string>appattest.apple.com</string>
+					<string>valid.apple.com</string>
+					<string>mesu.apple.com</string>
+					<string>gdmf.apple.com</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Totalement sécurisé pas de dangereux pour ton wifi</string>
+	<key>PayloadDisplayName</key>
+	<string>Sp1ng DNS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.sp1ng.antirevoke</string>
+	<key>PayloadOrganization</key>
+	<string>Sp1ng</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>99999999-8888-7777-6666-555555555555</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
